@@ -22,3 +22,11 @@ last one out.
 A common data structure used for that is a circular queue with pointers to the head and to the tail
 
 
+# Performance and complexity
+
+**Enqueuing and Dequeuing** Will have order complexity of 1
+
+**isEmpty or isFull** will also have order complexity of 1
+
+**Space complexity** will be O(N) 
+
