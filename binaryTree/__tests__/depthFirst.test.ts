@@ -3,12 +3,12 @@ import {preOrder , inOrder, postOrder} from "../depthFirst";
 import root from '../preloadedTree';
 
 describe('[DEPTH-FIRST]' , () => {
-	xdescribe('pre-order' , () => {
+	describe('pre-order' , () => {
 		it('should be able to traverse data in a coorect order ' , () => {
 			preOrder(root);
 		});
 	});
-	xdescribe('in-order' , () => {
+	describe('in-order' , () => {
 		it( 'should be able to traverse data in-order', () => {
 				inOrder(root);
 			}) ;

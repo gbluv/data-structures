@@ -25,7 +25,7 @@ There are 3 types of Depth-First traversals
 
 3. Post-Order
 
-	Node its self is porcessed after left and right is processed.
+	Node its self is processed only after the whole tree has been processed.
 	
 Essentially this processing is related to the top node:
 
